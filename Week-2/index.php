@@ -780,6 +780,7 @@ echo $x;
 // $ageCheck = Null ?? "2nd expression";
 // echo $ageCheck;
 
+// echo $color = $color1 ?? "red";
 
 // $colors_1 = [
 //     "color-1" => "Red", 
@@ -797,6 +798,33 @@ echo $x;
 // echo $allColors["color-1"]; // Red
 // echo $allColors["color-5"]; // Yellow
 
+
+
+/*
+
+https://charm-ursinia-de9.notion.site/PHP-7b2eb050885546fb8f44b648c7be8a3b?pvs=25
+
+array_push() // add element in last position
+array_pop() // delete last element
+array_unshift() // add element in first position
+sort()
+rsort()
+array_sum()
+array_slice()
+array_splice()
+in_array() // if this is exist on this array or not
+explode() // convert string to array
+implode() // convert array to string
+
+Next Class
+json  // study
+loop
+condition 
+*/
+
+
+$nums = [11, 32, 53, 63, 23, 75];
+var_dump($nums);
 
 
 
