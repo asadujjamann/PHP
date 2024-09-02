@@ -17,10 +17,6 @@ in_array() // if this is exist on this array or not
 explode() // convert string to array
 implode() // convert array to string
 
-Next Class
-json  // study
-loop
-condition 
 */
 
 
@@ -290,36 +286,146 @@ print_r($cars);
 
 
 
+/****
+$cars = ["Kia", "BMW", "Audi", "Fiat"];
+$numbers = [5, 11, 3, 9, 2];
+
+$sort_Ascending_Car_Names = sort($cars);
+
+print_r($sort_Ascending_Car_Names); // 1
+print_r($cars); // Array ( [0] => Audi [1] => BMW [2] => Fiat [3] => Kia )
+
+$sort_Ascending_Numbers = sort($numbers);
+
+print_r($sort_Ascending_Numbers); // 1
+print_r($numbers); // Array ( [0] => 2 [1] => 3 [2] => 5 [3] => 9 [4] => 11 )
+****/
 
 
 
 
+/****
+$cars = ["Kia", "BMW", "Audi", "Fiat"];
+$numbers = [5, 11, 3, 9, 2];
 
+$sort_Descending_Car_Names = rsort($cars);
 
+print_r($sort_Descending_Car_Names); // 1
+print_r($cars);
 
-// /****
+$sort_Descending_Numbers = rsort($numbers);
 
-// ****/
-
-/*
-Json
-Using object, Using array
-
-DRY - Dont Repeat Yourself
-
-Loop -  for, while
-
-
-echo "<pre>";
-
-echo "</pre>";
-
-echo "<br>";
-
-*/
+print_r($sort_Descending_Numbers); // 1
+print_r($numbers);
+****/
 
 
 
 
+/****
+$age = ["Mizan" => 30, "Asad" => "29", "Biplop" => 24];
 
+$sort_ASC_value_age = asort($age);
+
+print_r($sort_ASC_value_age); // 1
+print_r($age); // Array ( [Biplop] => 24 [Asad] => 29 [Mizan] => 30 )
+****/
+
+
+
+/****
+$age = ["Mizan" => 30, "Asad" => "29", "Biplop" => 24];
+
+$sort_ASC_key_age = ksort($age);
+
+print_r($sort_ASC_key_age); // 1
+print_r($age); // Array ( [Asad] => 29 [Biplop] => 24 [Mizan] => 30 )
+****/
+
+
+
+
+/****
+$age = ["Mizan" => 30, "Asad" => "29", "Biplop" => 24];
+$sort_DESC_value_age = arsort($age);
+
+print_r($sort_DESC_value_age); // 1
+print_r($age); // Array ( [Mizan] => 30 [Asad] => 29 [Biplop] => 24 )
+****/
+
+
+
+
+/****
+$age = ["Mizan" => 30, "Asad" => "29", "Biplop" => 24];
+$sort_DESC_key_age = krsort($age);
+
+print_r($sort_DESC_key_age); // 1
+print_r($age);
+****/
+
+
+
+
+/********** Multidimentional Array == Start **********/
+/****
+$cars = [
+    ["Tesla", 17, 15],
+    ["Volvo", 22, 18],
+    ["BMW", 15, 13],
+    ["Saab", 5, 2],
+];
+
+echo "<table border='1' cellpadding='10' >";
+
+echo "<tr>
+<th>Name</th>
+<th>Stock</th>
+<th>Sold</th>
+</tr>";
+
+for($row = 0; $row < count($cars); $row++){
+
+    echo "<tr>";
+    for($col = 0; $col < count($cars) - 1; $col++){
+        echo "<td>" . $cars[$row][$col] . "</td>";
+    }
+    echo "</tr>";
+
+}
+echo "</table>";
+****/
+
+
+
+/****
+$cars = [
+    ["Tesla", 17, 15],
+    ["Volvo", 22, 18],
+    ["BMW", 15, 13],
+    ["Saab", 5, 2],
+];
+
+echo "
+<table border='1' cellpadding='10'>
+<tr>
+<th>Name</th>
+<th>Stock</th>
+<th>Sold</th>
+</tr>
+";
+
+foreach($cars as $row){
+    echo "<tr>";
+
+    foreach($row as $item){
+        echo "<td>" . $item . "</td>";
+    }
+
+    echo "</tr>";
+}
+echo "</table>";
+****/
+
+/********** Multidimentional Array == End **********/
 
