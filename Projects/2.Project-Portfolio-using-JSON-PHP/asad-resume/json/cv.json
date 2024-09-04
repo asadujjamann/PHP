@@ -1,0 +1,278 @@
+{
+    "header": {
+        "logo_name_with_extension": "asad-logo.webp",
+        "dev_short_name": "Asad",
+        "nav_menu": [
+            {
+                "nav_item": "Home",
+                "icon_classes": "fa fa-home"
+            },
+            {
+                "nav_item": "About",
+                "icon_classes": "fa fa-address-card"
+            },
+            {
+                "nav_item": "Experience",
+                "icon_classes": "fa fa-star"
+            },
+            {
+                "nav_item": "Service",
+                "icon_classes": "fa fa-tasks"
+            },
+            {
+                "nav_item": "Portfolio",
+                "icon_classes": "fa fa-file-archive"
+            },
+            {
+                "nav_item": "Contact",
+                "icon_classes": "fa fa-envelope"
+            }
+        ]
+    },
+
+    "hero": {
+        "greetings": "Hi",
+        "introText": "I'm Asad",
+        "expertises": [
+            "Web Developer", 
+            "WordPress Developer", 
+            "Front-End Developer"
+        ],
+        "heroImageLink": "/img/profile/asad.webp"
+    },
+
+    "about": {
+        "heading": "About Me",
+        "description": "I am a skilled Web Developer with 3 years of experience, specializing in WordPress, front-end development, and PHP. My expertise includes creating responsive, user-friendly websites, customizing WordPress themes, and developing dynamic functionalities using PHP. I am proficient in HTML, CSS, JavaScript, and have a strong understanding of Elementor Pro for seamless design implementation. I am dedicated to delivering high-quality work on time, ensuring client satisfaction with every project. Let’s work together to bring your web vision to life!",
+        "buttonText": "Hire Me",
+        "skills": {
+            "HTML, CSS": "95%",
+            "JavaScript": "85%",
+            "PHP": "85%",
+            "WordPress Development": "95%"
+        }
+    },
+
+    "education": {
+        "heading": "Education",
+        "description": [
+            {
+                "degreeName": "Master Degree",
+                "degreeInfo": "I completed my post-graduation in Mathematics from National University (NU) during the 2017-2018 academic year. This advanced study deepened my analytical and problem-solving skills, which I now apply to my work in web development. My background in mathematics enhances my approach to coding and algorithmic thinking.",
+                "startTime": "2017",
+                "endTime": "2018"
+            },
+            {
+                "degreeName": "Bachelor Degree",
+                "degreeInfo": "I completed my graduation in Mathematics from National University (NU) between 2013 and 2017. This background has provided me with a strong analytical foundation and problem-solving skills that enhance my work in web development. My mathematical training helps me approach complex coding challenges with a logical and structured mindset.",
+                "startTime": "2013",
+                "endTime": "2017"
+            },
+            {
+                "degreeName": "College",
+                "degreeInfo": "I attended Domar Govt College from 2010 to 2012, where I pursued a science background that laid a solid foundation for my technical skills. The analytical thinking and problem-solving abilities I developed during these years have been instrumental in shaping my career as a web developer.",
+                "startTime": "2010",
+                "endTime": "2012"
+            },
+            {
+                "degreeName": "High School",
+                "degreeInfo": "I attended Domar M.L. High School from 2006 to 2010, where I pursued a science background, laying a strong foundation for my technical skills. My passion for problem-solving and analytical thinking, developed during these formative years, has greatly contributed to my career as a web developer.",
+                "startTime": "2006",
+                "endTime": "2010"
+            }
+        ]
+    },
+
+
+    "experience": {
+        "heading": "Experience",
+        "description": [
+            {
+                "workPlace": "Upwork",
+                "location": "USA",
+                "designation": "WordPress Developer",
+                "jobInfo": "I am currently working on Upwork as a WordPress Developer, collaborating with various clients to create and customize websites. My projects range from building new WordPress sites to enhancing existing ones, ensuring they meet clients' needs and expectations. I focus on delivering high-quality solutions, leveraging my expertise to provide tailored and effective services.",
+                "from": "Apr-2021",
+                "to": "Present"
+            },
+            {
+                "workPlace": "WPDesigns",
+                "location": "United Kingdom",
+                "designation": "Figma to WordPress",
+                "jobInfo": "At WPDesigns, an agency I worked with through Upwork, I specialized in converting Figma designs into fully functional WordPress Elementor websites. My role involved translating design concepts into responsive and user-friendly web pages while maintaining design integrity. I collaborated closely with designers and clients to ensure the final product met their vision and expectations.",
+                "from": "Jan-2022",
+                "to": "Jul-2022"
+            },
+            {
+                "workPlace": "Codersoft It Institute",
+                "location": "Dianjpur, Bangladesh",
+                "designation": "Trainer | WordPress Development",
+                "jobInfo": "At Codersoft IT Institute, I worked as a Trainer for WordPress Development, teaching students to build and customize WordPress sites. My training encompassed HTML, CSS, JavaScript, PHP, and WordPress, providing a thorough grounding in web development. This role enhanced my ability to explain complex concepts and support students in mastering essential skills.",
+                "from": "Jan-2023",
+                "to": "Dec-2023"
+            },
+            {
+                "workPlace": "Rafusoft",
+                "location": "Dinajpur, Bangladesh",
+                "designation": "Web Developer",
+                "jobInfo": "At Rafusoft, I worked as a Website Developer, where I was responsible for designing, developing, and maintaining websites. I collaborated with clients to understand their requirements and implemented solutions using a range of technologies. My role involved ensuring optimal website performance and delivering projects that met high standards of quality and functionality.",
+                "from": "Apr-2019",
+                "to": "May-2021"
+            }
+        ]
+    },
+
+    "services": {
+        "heading": "Services",
+        "description": [
+            {
+                "serviceTitle": "Web Development",
+                "serviceInfo": "I provide expert web development services, delivering customized and innovative solutions to meet diverse client needs.",
+                "icon_classes": "fa fa-desktop"
+            },
+            {
+                "serviceTitle": "WordPress Development",
+                "serviceInfo": "I provide expert WordPress development services, specializing in creating, customizing, and optimizing websites to meet clients' specific needs.",
+                "icon_classes": "fa-brands fa-wordpress"
+            },
+            {
+                "serviceTitle": "Figma to WordPress",
+                "serviceInfo": "I offer services in converting Figma designs to WordPress, ensuring seamless integration of design elements into functional, responsive websites.",
+                "icon_classes": "fa-brands fa-figma"
+            },
+            {
+                "serviceTitle": "fa-solid fa-code",
+                "serviceInfo": "In addition to my WordPress expertise, I provide professional front-end development services, ensuring that websites are visually appealing, responsive, and user-friendly.",
+                "icon_classes": "fa fa-desktop"
+            }
+        ]
+    },
+
+    "portfolio": {
+        "heading": "Portfolio",
+        "portfilio_filters": [
+            {
+                "attr_value": "web-dev",
+                "item_name": "WordPress Dev"
+            },
+            {
+                "attr_value": "front-end",
+                "item_name": "Front-End Dev"
+            }
+        ],
+        "portfilio_items": [
+            {
+                "attr_value": "web-dev",
+                "img_name_with_extension": "TreeStar.webp",
+                "project_link": "https://treestar.au/",
+                "title": "Children and Teens Counseling Practice",
+                "working_field": "WordPress Development"
+            },
+            {
+                "attr_value": "web-dev",
+                "img_name_with_extension": "Rentproof.webp",
+                "project_link": "https://rentproof.co/",
+                "title": "Developing a Rental Market",
+                "working_field": "WordPress Development"
+            },
+            {
+                "attr_value": "front-end",
+                "img_name_with_extension": "Formilla.com.webp",
+                "project_link": "#!",
+                "title": "Dashboard & Popup Templates for Formilla.com",
+                "working_field": "Front-End Development"
+            },
+            {
+                "attr_value": "web-dev",
+                "img_name_with_extension": "Hoem.webp",
+                "project_link": "https://hoem.co/",
+                "title": "Managing rental property with ease",
+                "working_field": "WordPress Development"
+            },
+            {
+                "attr_value": "web-dev",
+                "img_name_with_extension": "Northan-Star-Heat.webp",
+                "project_link": "https://northernstarheat.com/",
+                "title": "One-stop-shop for all heating and cooling needs",
+                "working_field": "WordPress Development"
+            },
+            {
+                "attr_value": "front-end",
+                "img_name_with_extension": "Eduport-Bootstrap-Template-Redesign.webp",
+                "project_link": "https://eduport-redesign.netlify.app/",
+                "title": "Eduport Bootstrap Template Redesign",
+                "working_field": "Front-End Development"
+            }
+        ]
+    },
+
+    "reviews": {
+        "heading": "My Client Says",
+        "review_items": [
+            {
+                "client_speech": "Asad is awesome to work with. We will definitely requesting his help on future projects. He's fast, responsive, talented, and on time! I couldn't have asked for a better experience. Thanks again Asad!",
+                "img_name_with_extension": "Tonny.webp",
+                "client_name": "Tony Gilyana",
+                "client_company": "Formilla.com"
+            },
+            {
+                "client_speech": "A very positive experience working with Asad. The project was completely well and in a timely manner. He was considerate of deadlines and always maintained professional communication. I look forward to working with Asad again.",
+                "img_name_with_extension": "Client.webp",
+                "client_name": "Danielle Verrilli",
+                "client_company": "Treestar.com"
+            },
+            {
+                "client_speech": "Asad did a great job and completely met my needs. Great communication, finished work on time, and overall a really good experience! Looking forward to working together again! Thank you!",
+                "img_name_with_extension": "Client.webp",
+                "client_name": "Mike Flynn",
+                "client_company": "United States"
+            }
+        ]
+    },
+
+    "contact": {
+        "heading": "Contact",
+        "contact_items": {
+            "developer_name": "Md. Asadujjaman Sabuj",
+            "designation": "Website Developer",
+            "email": "typetoasad@gmail.com",
+            "phone": "+8801714946954",
+            "address": "Rangpur Sadar, Rangpur"
+        },
+        "other_profile_links": {
+            "linkedIn": {
+                "icon_classes": "fab fa-linkedin-in",
+                "profile_link": "#!",
+                "__profile_link": "https://www.linkedin.com/in/md-asadujjaman-sabuj"
+            },
+            "upwork": {
+                "icon_classes": "fa-brands fa-upwork",
+                "profile_link": "#!",
+                "__profile_link": "https://www.upwork.com/freelancers/~0187bfc383a4384ce5"
+            },
+            "twitter": {
+                "icon_classes": "fab fa-twitter",
+                "profile_link": "#!",
+                "__profile_link": "https://x.com/asadtwtt"
+            }
+        },
+        "contact_form": {
+            "placeholder_name": "Your Name",
+            "placeholder_email": "Your Email",
+            "placeholder_subject": "Subject",
+            "placeholder_message": "Message",
+            "submit_btn_text": "Send Message"
+        }
+    },
+
+    "footer": {
+        "copyright": "© Copyright. All Rights Reserved",
+        "dev_text": "Developed by",
+        "dev_name": "Asad",
+        "dev_link": "#!",
+        "__dev_link": "https://asadujjaman.dev/"
+    }
+
+
+
+}
