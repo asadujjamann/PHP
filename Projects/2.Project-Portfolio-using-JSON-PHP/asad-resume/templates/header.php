@@ -28,13 +28,13 @@
         <div class="wrapper">
             <div class="sidebar">
                 <div class="sidebar-header">
-                    <a href="index.html">
+                    <a href="./index.php">
                         <img src="img/site-icon/asad-logo.webp" alt="Asad">
                     </a>
                 </div>
                 <div class="sidebar-content">
                     <nav class="navbar navbar-expand-md bg-dark navbar-dark">
-                        <a href="#" class="navbar-brand">Asad</a>
+                        <a href="./index.php" class="navbar-brand">Asad</a>
                         <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
                             <span class="navbar-toggler-icon"></span>
                         </button>
