@@ -1,136 +1,7 @@
 <?php
 
 
-// $a = 5;
-// if($a < 10){
-//     echo "Smaller";
-// }else{
-//     echo "Greater";
-// }
 
-
-/**********
-$age = 16;
-if ($age = 16;) echo "You are under 18";
-
-// or
-$age = 16;
-if ($age = 16;) $myAge = "You are under 18";
-echo $myAge;
-**********/
-
-
-/**********
-$age = 16;
-if($age < 18){
-    echo "You are under 18";
-}
-**********/
-
-
-/**********
-$x = 13;
-if($x > 10){
-    echo "x is above 10 ";
-    if($x > 20){
-        echo "also above 20 ";
-    }else{
-        echo "but not above 20 ";
-    }
-}
-**********/
-
-
-/**********
-$day = "Friday";
-switch ($day) {
-    case "Tuesday":
-        echo "Today is Tuesday.";
-        break;
-    case "Wednesday":
-        echo "Today is Wednesday.";
-        break;
-    case "Thursday":
-        echo "Today is Thursday.";
-        break;
-    default:
-        echo "It's the weekend";
-        break;
-}
-**********/
-
-
-/**********
-$userRole = "editor";
-$loggedIn = true;
-
-switch (true) {
-    case ($userRole === "admin" && $loggedIn):
-        echo "Welcome, Admin! You have full access to the system.";
-        break;
-    case ($userRole === "editor" && $loggedIn):
-        echo "Welcome, Editor! You can edit and publish content.";
-        break;
-    case ($userRole === "subscriber" && $loggedIn):
-        echo "Welcome, Subscriber! You can view premium content.";
-        break;
-    case (!$loggedIn):
-        echo "Please log in to continue.";
-        break;
-    default:
-        echo "Role not recognized. Contact support.";
-        break;
-}
-**********/
-
-
-/**********
-// (ব্যাংক অ্যাকাউন্ট ব্যালেন্স চেক): ধরা যাক, আপনি চান একটি প্রোগ্রাম যতক্ষণ না আপনার ব্যাংক ব্যালেন্স ১০,০০০ এর বেশি হচ্ছে ততক্ষণ টাকা জমা করতে থাকবে।
-
-$balance = 0;
-$deposit = 2000;
-while ($balance < 10000) {
-    $balance += $deposit;
-    echo "Balance is now: $balance <br>";
-}
-**********/
-
-
-/**********
-// ধরা যাক, আপনি লটারির টিকিট যাচাই করছেন এবং একটি নির্দিষ্ট সংখ্যক টিকিট না পাওয়া পর্যন্ত চালিয়ে যাচ্ছেন। তবে প্রথমবার টিকিট চেক করা হবে।
-
-$winning_ticket = 100;
-$ticket = 90;
-do {
-    echo "Checking ticket number: $ticket <br>";
-    $ticket++;
-}while($ticket != $winning_ticket);
-
-echo "Congrates! Winning ticket number: $ticket";
-**********/
-
-
-/**********
-// আপনি ১০ জন ছাত্রের নম্বর নিয়ে কাজ করছেন এবং প্রতিটি ছাত্রের নম্বর ২ দিয়ে গুণ করে প্রিন্ট করতে চান।
-
-$marks = [50, 60, 70, 80, 90, 85];
-echo "Marks multiplied by 2: <br>";
-for ($i = 0; $i < count($marks); $i++) {
-    echo $marks[$i] * 2 . "<br>";
-}
-**********/
-
-
-// /**********
-// স্কুল বা শিক্ষার্থীদের জন্য গুণনীয়ক (নামতা) টেবিল তৈরি করতে চান যা ১ থেকে ৫ পর্যন্ত সংখ্যার জন্য প্রিন্ট হবে।
-
-for ($i = 1; $i <= 3; $i++){
-    for ($j = 1; $j <= 10; $j++){
-        echo "$i x $j = " . ($i * $j) . "<br>";
-    }
-    echo "<br>";
-}
-// **********/
 
 
 
@@ -140,21 +11,12 @@ for ($i = 1; $i <= 3; $i++){
 
 
 
-// /**********
-
-// **********/
-
-
 
 // /**********
 
 // **********/
 
 
-
-// /**********
-
-// **********/
 
 
 // /**********
@@ -163,14 +25,11 @@ for ($i = 1; $i <= 3; $i++){
 
 
 
-// /**********
-
-// **********/
-
 
 // /**********
 
 // **********/
+
 
 
 
