@@ -250,7 +250,6 @@ function custom_price_message() {
 /*
 
 
-
 function af_health_restricted_category_product($price, $product) {
     // Ensure the product is a valid object
     if (empty($product) || !is_a($product, 'WC_Product')) {
