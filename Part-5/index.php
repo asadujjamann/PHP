@@ -1,13 +1,44 @@
 <?php
 
 
-
-
-
-
 // /**********
 
 // **********/
+
+
+
+
+/**********
+fopen()
+file_get_contents()
+fclose()
+fwrite()
+file_put_contents()
+
+FILE_APPEND
+LOCK_EX
+rewind()
+fseek()
+Good things take time
+sprintf() *format specifier
+csv (comma separated value)
+
+
+search ---> serialized php
+
+
+**********/
+
+
+
+/**********
+
+CLI_IC
+print_r($argc);
+print_r($argv);
+readline();
+file_exists();
+**********/
 
 
 
@@ -467,17 +498,13 @@ add_filter('body_class', 'af_health_add_body_class_if_not_logged_in');
  
 
 
-
-
-
-
 */
 
 
 
 
 /*
-Inactive_Patient_Test
-asad@123
+User:  Inactive_Patient_Test
+Pass:  asad@123
 
 */

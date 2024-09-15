@@ -172,47 +172,181 @@ $say();
 
 
 
-// /**********
+/**********
+// Return an anonymous function from a function
 
-// **********/
+function multiplier($x){
+    return function ($a) use ($x) {
+        return $x * $a;
+    };
+}
 
+echo multiplier(2)(100); // 200 ($x=2, $a=100)
+echo multiplier(3)(100); // 300 ($x=3, $a=100)
+**********/
 
-
-
-// /**********
-
-// **********/
-
-
-
-
-// /**********
-
-// **********/
 
 
 
 
 /**********
-fopen()
-file_get_contents()
-fclose()
-fwrite()
-file_put_contents()
-
-FILE_APPEND
-LOCK_EX
-rewind()
-fseek()
-Good things take time
-sprintf() *format specifier
-csv (comma separated value)
-
-
-search ---> serialized php
-
-
+$list = [10, 20, 30];
+// $double_it_fn = function ($element){
+// 	return $element * 2;
+// };
+$double_it_fn = fn($element) => $element * 2;
+$result = array_map($double_it_fn, $list);
+echo "<pre>";
+print_r($result);
 **********/
+
+ 
+
+
+/**********
+// Return an arrow function from a function
+
+function multiplier($x) {
+    return fn($a) => $x * $a;
+}
+
+// $multiplier = fn($x) => fn($a) => $x * $a;
+
+
+echo $multiplier(2)(100);
+echo $multiplier(3)(100);
+**********/
+
+
+
+
+/**********
+$name = "Asad";
+function myName() {
+		$global_name = $GLOBALS['name'];
+    echo "I'm " . $global_name;
+}
+myName(); // I'm Asad.
+**********/
+
+
+
+
+/**********
+$name = "Asad";
+function myName() {
+		global $name;
+    echo "I'm " . $name;
+}
+myName();
+**********/
+
+
+
+
+
+/**********
+// you can create global variables inside a function by using the $GLOBALS syntax:
+
+function global_wifi() {
+    $GLOBALS["wifi_name"] = "General";
+    $GLOBALS["wifi_pass"] = "12345";
+}
+global_wifi();
+
+echo $GLOBALS["wifi_name"];
+echo $GLOBALS["wifi_pass"];
+**********/
+
+
+
+
+/**********
+function global_wifi() {
+    global $wifi_name, $wifi_pass;
+    $wifi_name = "General";
+    $wifi_pass = "12345";
+}
+global_wifi();
+echo $wifi_name;
+echo $wifi_pass;
+**********/
+
+
+
+
+// /**********
+// echo $_SERVER['PHP_SELF']; // /learn_php/Part-4/index.php
+// echo $_SERVER['SERVER_NAME']; // localhost
+// echo $_SERVER['HTTP_HOST']; // localhost 
+// echo $_SERVER['HTTP_REFERER']; // http://localhost/learn_php/
+// echo $_SERVER['HTTP_USER_AGENT']; // Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/128.0.0.0 Safari/537.36
+// echo $_SERVER['SCRIPT_NAME']; // /learn_php/Part-4/index.php
+
+
+// echo $_SERVER['GATEWAY_INTERFACE']; // CGI/1.1
+// echo $_SERVER['SERVER_ADDR']; // ::1
+// echo $_SERVER['SERVER_SOFTWARE']; // Apache/2.4.54 (Unix) OpenSSL/1.0.2u PHP/8.2.0 mod_wsgi/3.5 Python/2.7.18 mod_fastcgi/mod_fastcgi-SNAP-0910052141 mod_perl/2.0.11 Perl/v5.30.1
+// echo $_SERVER['SERVER_PROTOCOL']; // HTTP/1.1
+// echo $_SERVER['REQUEST_METHOD']; // GET
+// echo $_SERVER['REQUEST_TIME']; // 1726394538
+// echo $_SERVER['SERVER_ADMIN']; // you@example.com
+// **********/
+
+
+
+
+
+// /**********
+
+// **********/
+?>
+
+<!-- 
+<html>
+<body>
+
+<form method="post" action="data.php">
+  Name: <input type="text" name="fname">
+  <input type="submit">
+</form>
+
+</body>
+</html> 
+-->
+
+
+
+
+
+
+
+<html>
+<body>
+
+<form method="post" action="<?php $_SERVER['PHP_SELF']?>">
+  Name: <input type="text" name="fname">
+  <input type="submit">
+</form>
+
+<?php 
+    echo $_SERVER['REQUEST_METHOD'];
+?>
+
+</body>
+</html>
+
+<?php
+
+
+// /**********
+
+// **********/
+
+
+
+
+
 
 
 
