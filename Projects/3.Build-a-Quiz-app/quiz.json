@@ -1,0 +1,29 @@
+{
+    "title": "Country Quiz App",
+    "questions": [
+        {
+            "question": "What is the capital of Bangladesh?",
+            "type": "single",
+            "options": ["Dhaka", "Chittagong", "Khulna", "Rajshahi"],
+            "answer": "Dhaka"
+        },
+        {
+            "question": "Which of the followings are not official currencies in Bangladesh?",
+            "type": "multiple",
+            "options": ["BDT", "USD", "EUR", "GBP"],
+            "answer": ["USD", "GBP", "EUR"]
+        },
+        {
+            "question": "Which of the following is the official Bangladeshi language?",
+            "type": "single",
+            "options": ["Bengali", "English", "Hindi", "Urdu"],
+            "answer": "Bengali"
+        },
+        {
+            "question": "Which of the followings are famous tourist spots in Bangladesh?",
+            "type": "multiple",
+            "options": ["Taj Mahal", "Cox's Bazar", "Sundarbans", "Rangamati"],
+            "answer": ["Cox's Bazar", "Sundarbans", "Rangamati"]
+        }
+    ]
+}
