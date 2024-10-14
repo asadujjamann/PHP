@@ -1,0 +1,35 @@
+{
+    "title": "Sports Quiz App",
+    "questions": [
+        {
+            "question": "Which of the following is NOT a popular sport in Bangladesh?",
+            "type": "single",
+            "options": ["Cricket", "Football", "Basketball", "Tennis"],
+            "answer": "Basketball"
+        },
+        {
+            "question": "Which of the followings are popular sports in the world?",
+            "type": "multiple",
+            "options": ["Cricket", "Football", "Hockey", "Rugby", "Tennis"],
+            "answer": ["Cricket", "Football", "Hockey", "Tennis"]
+        },
+        {
+            "question": "Which of the following is the national sport of Bangladesh?",
+            "type": "single",
+            "options": ["Cricket", "Football", "Kabaddi", "Hockey"],
+            "answer": "Kabaddi"
+        },
+        {
+            "question": "Which of the followings are NOT popular sports in the world?",
+            "type": "multiple",
+            "options": ["Cricket", "Football", "Kabaddi", "Rugby", "Chess"],
+            "answer": ["Kabaddi", "Chess"]
+        },
+        {
+            "question": "Which of the following is the highest governing body of sports in Bangladesh?",
+            "type": "single",
+            "options": ["Bangladesh Olympic Committee", "Bangladesh Sports Federation", "Bangladesh National Sports Council", "Bangladesh Cricket Board"],
+            "answer": "Bangladesh National Sports Council"
+        }
+    ]
+}
