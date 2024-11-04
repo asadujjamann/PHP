@@ -1,0 +1,5 @@
+
+* Interfaces are purely abstract; they don't have code to their methods.
+* Any class that implements an interface must provide concrete implementations for the methods defined in the interface.
+* Interface Cannot be instantiate 
+
