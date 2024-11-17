@@ -1,0 +1,19 @@
+
+
+In PHP, magic methods are special methods that start with double underscores (__). They are predefined by PHP and provide special behaviors when specific actions are performed on objects. Magic mehtods allow us to customize how an object behaves when interacting with properties or methods dynamically.
+
+Common Characteristics:
+Automatically triggered during specific actions.
+Often used for handling dynamic or hidden behavior.
+Begin with __.
+
+
+__set()
+__get()
+__call()
+__toString()
+__debugInfo()
+
+
+
+
