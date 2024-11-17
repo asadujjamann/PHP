@@ -1,0 +1,10 @@
+Data abstraction in PHP OOP (Object-Oriented Programming) is the concept of showing only essential details to the user while hiding the internal implementation. In other words, abstraction focuses on exposing only the relevant functionalities of an object and keeping the complex, underlying details hidden.
+
+
+
+Achieving Abstraction in PHP
+In PHP, abstract classes and interfaces are often used to achieve abstraction:
+
+Abstract Class: An abstract class cannot be instantiated directly. It may contain abstract methods (which are declared but not defined in the abstract class) that must be implemented by subclasses.
+
+Interface: An interface defines a contract that classes must follow. All methods in an interface are abstract, meaning the class that implements the interface must define them.
