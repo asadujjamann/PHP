@@ -1,0 +1,20 @@
+
+
+
+Type Hinting is a feature in PHP that allows you to specify the expected data type of arguments passed to functions or mehtods. By enforcing specific types, PHP ensures that the provided arguments meet the method's expectations, leading to more reliable and predictable code.
+
+-----------
+
+* Type Hinting Mehtods with Arrays
+* Type Hinting Methods with Objects
+
+-----------
+
+* Example of Type Hinting with Scalar Types
+* Example of Array Type Hinting
+* Example of Type Hinting with Interfaces
+* Advanced Example: Array of Specific Types (PHP 7.4+)
+* Type Hinting Methods with Objects
+
+
+
