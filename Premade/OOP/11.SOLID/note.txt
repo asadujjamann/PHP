@@ -1,0 +1,17 @@
+
+
+The SOLID principles are a set of five design principles in object-oriented programming that help developers create more maintainable, scalable, and robust software. These principles aim to make the code easier to understand, extend, and refactor. The acronym SOLID stands for:
+
+S - Single Responsibility Principle (SRP)
+O - Open/Closed Principle (OCP)
+L - Liskov Substitution Principle (LSP)
+I - Interface Segregation Principle (ISP)
+D - Dependency Inversion Principle (DIP)
+
+
+Benefits of SOLID Principles
+    * Maintainability: Easy to update and fix bugs.
+    * Scalability: Simple to add new features.
+    * Flexibility: Easy to change implementations or swap components.
+    * Reusability: Promotes reusable and modular code.
+By following SOLID principles, developers can write clean, understandable, and scalable PHP code..
