@@ -1,0 +1,138 @@
+<!-- <div class="spinner">
+    <div class="spinner-bar spinner-bar-1"></div>
+    <div class="spinner-bar spinner-bar-2"></div>
+    <div class="spinner-bar spinner-bar-3"></div>
+    <div class="spinner-bar spinner-bar-4"></div>
+    <div class="spinner-bar spinner-bar-5"></div>
+    <div class="spinner-bar spinner-bar-6"></div>
+    <div class="spinner-bar spinner-bar-7"></div>
+    <div class="spinner-bar spinner-bar-8"></div>
+  </div>
+  
+  <style>
+    .spinner {
+      position: relative;
+      width: 80px;
+      height: 80px;
+    }
+  
+    .spinner-bar {
+      position: absolute;
+      width: 10px;
+      height: 20px;
+      background-color: #000;
+      border-radius: 5px;
+      top: 0;
+      left: 50%;
+      transform-origin: center 40px;
+      transform: translateX(-50%);
+      animation: fade 1s linear infinite;
+    }
+  
+    /* Position each bar around the circle */
+    .spinner-bar-1 { transform: translateX(-50%) rotate(0deg); animation-delay: 0s; }
+    .spinner-bar-2 { transform: translateX(-50%) rotate(45deg); animation-delay: 0.125s; }
+    .spinner-bar-3 { transform: translateX(-50%) rotate(90deg); animation-delay: 0.25s; }
+    .spinner-bar-4 { transform: translateX(-50%) rotate(135deg); animation-delay: 0.375s; }
+    .spinner-bar-5 { transform: translateX(-50%) rotate(180deg); animation-delay: 0.5s; }
+    .spinner-bar-6 { transform: translateX(-50%) rotate(225deg); animation-delay: 0.625s; }
+    .spinner-bar-7 { transform: translateX(-50%) rotate(270deg); animation-delay: 0.75s; }
+    .spinner-bar-8 { transform: translateX(-50%) rotate(315deg); animation-delay: 0.875s; }
+  
+    /* Animation for fading effect */
+    @keyframes fade {
+      0%, 100% {
+        opacity: 1;
+        background-color: #52b788; /* Active green color */
+      }
+      50% {
+        opacity: 0.3;
+        background-color: #000; /* Dark inactive color */
+      }
+    }
+  </style>
+   -->
+
+
+
+<style>
+/* Spinner Styles */
+.button.add_to_cart_button.loading {
+  position: relative;
+  color: transparent; /* Hide the text while loading */
+}
+
+.button.add_to_cart_button.loading:after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 16px;
+  height: 16px;
+  border: 2px solid #ccc; /* Gray inactive color */
+  border-top-color: #52b788; /* Green active color */
+  border-radius: 50%;
+  animation: spinner 1s linear infinite;
+  transform: translate(-50%, -50%);
+}
+
+/* Spinner Animation */
+@keyframes spinner {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+</style>
+
+<a href="?add-to-cart=6128"
+   class="button product_type_simple add_to_cart_button ajax_add_to_cart loading"
+   data-product_id="6128"
+   data-product_sku="851228005205">
+   Add
+</a>
+
+
+
+<style>
+.button.add_to_cart_button.loading {
+    opacity: 1;
+    background: transparent !important;
+}
+
+a.button.add_to_cart_button.added:after {
+    content: "";
+    position: absolute;
+    display: block;
+    left: 0;
+    width: 16px;
+    height: 16px;
+    background: url(https://shop.alexfisherhealth.com.au/wp-content/uploads/2024/12/Check-rounded-green-Icon-for-AF-Health-Shop-at-Naturopath-Adelaide-Clinic.svg) no-repeat;
+    background-position: center;
+}
+
+a.button.add_to_cart_button.added {
+    position: relative;
+    color: transparent !important;
+    overflow: hidden;
+    background: #EBF0E5 !important;
+    display: flex;
+    align-items: center;
+}
+
+a.button.add_to_cart_button.added:before {
+    content: "Added";
+    position: absolute;
+    display: block;
+    color: #81BD45 !important;
+    right: 6px;
+}
+
+a.button.add_to_cart_button {
+    min-width: 90px;
+    max-width: 90px;
+}
+</style>
