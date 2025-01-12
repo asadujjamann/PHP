@@ -124,6 +124,8 @@ add_filter('body_class', 'af_health_add_body_class_if_not_logged_in');
 
 
 
+
+
 /////////////////////////////////////// 16-dec-2024   10:00am
 
 function af_health_restricted_category_product($price, $product) {
