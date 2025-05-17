@@ -366,6 +366,11 @@ function customize_checkout_fields($fields) {
     if (isset($fields['shipping']['shipping_address_2'])) {
         unset($fields['shipping']['shipping_address_2']);
     }
+	
+	// Remove the required attribute from all billing fields
+    foreach ($fields['billing'] as $key => $field) {
+        $fields['billing'][$key]['required'] = false;
+    }
 
 
     return $fields;
@@ -466,7 +471,16 @@ function customize_shipping_method_label($label, $method) {
 
 
 
+// Automatically Use Shipping Name for Billing Name (This is working for like Afterpay checkout method)
+add_action('woocommerce_checkout_update_order_meta', function($order_id) {
+    if (!isset($_POST['billing_first_name']) || empty($_POST['billing_first_name'])) {
+        $shipping_first_name = isset($_POST['shipping_first_name']) ? sanitize_text_field($_POST['shipping_first_name']) : '';
+        $shipping_last_name  = isset($_POST['shipping_last_name']) ? sanitize_text_field($_POST['shipping_last_name']) : '';
 
+        update_post_meta($order_id, '_billing_first_name', $shipping_first_name);
+        update_post_meta($order_id, '_billing_last_name', $shipping_last_name);
+    }
+});
 
 
 
