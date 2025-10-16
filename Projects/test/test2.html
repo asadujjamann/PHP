@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+
+
+selector .toc-container {
+    padding: 30px 24px;
+    border-radius: 5px;
+    border: 1px solid  #BF9874;
+    background-color: #FFF;
+    max-width: 300px;
+  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+selector .toc-heading-row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-wrap: nowrap;
+    padding-bottom: 6px;
+}
+selector .toc-dot {
+    width: 36px;
+    height: auto;
+}
+selector .toc-heading {
+    font-family: 'Marcellus', Georgia, "Times New Roman", serif;
+    font-weight: 700;
+    font-variant: small-caps;
+    font-size: 20px;
+    color: #1e1a24;
+    line-height: 1.2em;
+    margin: 0;
+    white-space: nowrap;
+  	padding-bottom: 0
+}
+selector input#more-toggle {
+    display: none;
+}
+selector label.show-more-label {
+    cursor: pointer;
+    font-family: "Archivo", sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px;
+    color:  #BF9874;
+    text-decoration-line: underline;
+    user-select: none;
+    transition: 0.2s ease-out;
+    display: inline-block;
+    margin-top: 16px;
+}
+selector .toc-container ul {
+    padding: 0 0 0 17px !important;
+    margin: 10px 0 0 !important;
+    width: 100%;
+}
+selector .toc-container ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+selector ul.toc-list li,
+selector ul.extra-items li {
+    text-align: left;
+}
+selector ul.toc-list a,
+selector ul.extra-items a {
+    color: #65636A;
+    font-family: "Archivo", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    display: block;
+    text-decoration: none;
+}
+selector ul.toc-list a:hover,
+selector ul.extra-items a:hover {
+    text-decoration: underline;
+}
+
+
+selector label.show-more-label::before {
+    content: "";
+}
+selector input#more-toggle:checked + label.show-more-label::before {
+    content: "";
+}
+selector label.show-more-label::after {
+    content: "Expand All";
+}
+selector input#more-toggle:checked ~ label.show-more-label::after {
+    content: "Collapse";
+}
+selector ul.extra-items {
+    transition: 0.2s ease-out;
+    height: 0;
+    opacity: 0;
+    visibility: hidden;
+    margin: 0 0 0 !important;
+}
+selector input#more-toggle:checked ~ ul.extra-items {
+    transition: 0.2s ease-out;
+    height: 100%;
+    opacity: 1;
+    visibility: visible;
+    margin: 10px 0 0 !important;
+}
+        
+    </style>
+</head>
+<body>
+
+<selector>
+
+<div class="toc-container">
+
+  <div class="toc-heading-row">
+    <img class="toc-dot" src="https://lavender-bee-287250.hostingersite.com/wp-content/uploads/2025/09/Vector-24-4.png" alt="Decorative dot left" />
+    <h3 class="toc-heading">Table of Content</h3>
+    <img class="toc-dot" src="https://lavender-bee-287250.hostingersite.com/wp-content/uploads/2025/09/Vector-25-1-1.png" alt="Decorative dot right" />
+  </div>
+
+  <input type="checkbox" id="more-toggle">
+
+  <ul class="toc-list">
+    <li><a href="#item1">What are weight loss Lawsuits </a></li>
+    <li><a href="#item2">Understanding Your Legal Rights</a></li>
+    <li><a href="#item3">Steps to take after a bus accident</a></li>
+    <li><a href="#item3">Types of Compensation Available for Bus Accident Victims</a></li>
+    <li><a href="#item3">Key Legal Proceedings and Milestones</a></li>
+    <li><a href="#item3">Placeholder copy</a></li>
+  </ul>
+
+  <ul class="extra-items">
+    <li><a href="#item4">Placeholder copy 4</a></li>
+    <li><a href="#item5">Placeholder copy 5</a></li>
+  </ul>
+
+  <label for="more-toggle" class="show-more-label"></label>
+  
+</div>
+
+
+</selector>
+    
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="toc-container"><div class="toc-heading-row"><img class="toc-dot" src="https://lavender-bee-287250.hostingersite.com/wp-content/uploads/2025/09/Vector-24-4.png" alt="Decorative dot left" /><h3 class="toc-heading">Table of Content</h3><img class="toc-dot" src="https://lavender-bee-287250.hostingersite.com/wp-content/uploads/2025/09/Vector-25-1-1.png" alt="Decorative dot right" /></div><input type="checkbox" id="more-toggle"><ul class="toc-list"><li><a href="#item1">What are weight loss Lawsuits </a></li><li><a href="#item2">Understanding Your Legal Rights</a></li><li><a href="#item3">Steps to take after a bus accident</a></li><li><a href="#item3">Types of Compensation Available for Bus Accident Victims</a></li><li><a href="#item3">Key Legal Proceedings and Milestones</a></li><li><a href="#item3">Placeholder copy</a></li></ul><ul class="extra-items"><li><a href="#item4">Placeholder copy 4</a></li><li><a href="#item5">Placeholder copy 5</a></li></ul><label for="more-toggle" class="show-more-label"></label></div>
