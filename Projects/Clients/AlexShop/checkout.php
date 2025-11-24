@@ -79,7 +79,7 @@ add_action('woocommerce_checkout_order_review', function () {
 						$discount_display = wc_price($full_discount);
 						?>
 						<div class="applied-coupon order-totals-item">
-							<span class="applied-coupon-text">Monthly Members Discount</span>
+							<span class="applied-coupon-text">Discount</span>
 							<?= $discount_display; ?>
 						</div>
 					<?php
@@ -585,6 +585,12 @@ add_action('woocommerce_checkout_update_order_meta', function($order_id) {
         }
     }
 });
+
+
+
+
+
+
 
 
 
